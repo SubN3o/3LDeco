@@ -1,0 +1,4 @@
+services:
+#    trois_l_deco.example:
+#        class: TroisLDecoBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
