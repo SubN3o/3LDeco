@@ -2,7 +2,3 @@ trois_l_deco:
     resource: "@TroisLDecoBundle/Controller/"
     type:     annotation
     prefix:   /
-
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation

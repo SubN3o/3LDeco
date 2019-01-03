@@ -12,6 +12,7 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('@TroisLDeco/index.html.twig');
+    	$test = "hello";
+        return $this->render('@TroisLDeco/index.html.twig', ['test'=>$test]);
     }
 }
