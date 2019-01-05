@@ -9,8 +9,14 @@
     </head>
     <body>
         <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#">3LDéco</a>
+            <a class="navbar-brand" href="{{ path("home") }}">3LDéco</a>
             <form class="form-inline">
+            	{% if app.user %}
+            		<a href="{{ path("fos_user_security_logout") }}">logout</a>
+            	    {% if app.user.hasRole('ROLE_ADMIN')  %}
+            			<a href="{{ path("admin") }}">Back-Office</a>
+            	    {% endif %}
+            	{% endif %}
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
