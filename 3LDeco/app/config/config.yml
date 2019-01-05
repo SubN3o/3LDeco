@@ -80,3 +80,11 @@ fos_user:
     from_email:
         address: "sub.n3o@gmail.com"
         sender_name: "Jérémie"
+        
+vich_uploader:
+    db_driver: orm
+    mappings: 
+        upload: 
+            uri_prefix: /upload/ 
+            upload_destination: '%kernel.root_dir%/../web/upload/' 
+            namer: vich_uploader.namer_origname
