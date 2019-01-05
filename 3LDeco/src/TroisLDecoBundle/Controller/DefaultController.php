@@ -21,6 +21,8 @@ class DefaultController extends Controller
      */
     public function adminAction()
     {
+    	$this->denyAccessUnlessGranted('ROLE_ADMIN');
+    	
     	return $this->render('@TroisLDeco/admin/admin.html.twig');
     }
 }
