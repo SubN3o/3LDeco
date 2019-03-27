@@ -1,3 +1,7 @@
 .navUnderline{
     border-bottom: solid 1px black;
 }
+
+.margeNavbar{
+    height: 70px;
+}
