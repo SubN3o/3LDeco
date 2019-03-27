@@ -8,7 +8,7 @@ use TroisLDecoBundle\Entity\Upload;
 use TroisLDecoBundle\Form\UploadType;
 use Symfony\Component\HttpFoundation\Request;
 
-class DefaultController extends Controller
+class HomeController extends Controller
 {
     /**
      * @Route("/", name="home")
@@ -16,7 +16,7 @@ class DefaultController extends Controller
     public function indexAction()
     {
     	$test = "Accueil";
-        return $this->render('@TroisLDeco/index.html.twig', ['test'=>$test]);
+        return $this->render('@TroisLDeco/home.html.twig', ['test'=>$test]);
     }
 
     /**
