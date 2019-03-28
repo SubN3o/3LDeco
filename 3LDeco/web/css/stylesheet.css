@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Ink Free Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ink Free Regular'), url('Inkfree.woff') format('woff');
+    }
+
+body{
+    font-family: Ink Free Regular;
+}
+
 .navUnderline{
     border-bottom: solid 1px black;
 }
