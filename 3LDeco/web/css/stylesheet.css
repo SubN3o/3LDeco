@@ -5,3 +5,14 @@
 .margeNavbar{
     height: 70px;
 }
+
+.encart{
+    background-color: black;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.encart>h1, .encart>p{
+    font-size: 40px;
+    color: white;
+}

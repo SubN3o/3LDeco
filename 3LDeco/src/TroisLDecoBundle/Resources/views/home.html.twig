@@ -1,9 +1,29 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    {{ test }}
-    {% if app.user %}
-        <p>Hello {{ app.user.username }} !</p>
-    {% endif %}
+        <div class="row">
+            <div class="col">
+                {% if app.user %}
+                    <p>Hello {{ app.user.username }} !</p>
+                {% endif %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="offset-2 col-8">
+                    <img src="{{ asset('img/Logo3LdecoCircle.png') }}" class="card-img-top" alt="logo 3ldeco">
+                </div>
+                <div class="col">
+                    <div class="text-center encart">
+                        <h1>DECORATRICE D'INTERIEUR</h1>
+                        <p>-</p>
+                        <p>CONSEILLERE EN DESIGN D'ESPACE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                column right
+            </div>
+        </div>
 {% endblock %}
 
