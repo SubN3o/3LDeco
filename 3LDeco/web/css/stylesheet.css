@@ -1,12 +1,10 @@
 @font-face {
-    font-family: 'Ink Free Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Ink Free Regular'), url('Inkfree.ttf') format('ttf');
-    }
+    font-family: "inkfree";
+    src: url('../fonts/inkfree/Inkfree.ttf');
+}
 
 body{
-    font-family: Ink Free Regular;
+    font-family: inkfree;
 }
 
 .navUnderline{
