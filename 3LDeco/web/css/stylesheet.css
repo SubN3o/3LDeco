@@ -2,7 +2,7 @@
     font-family: 'Ink Free Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Ink Free Regular'), url('Inkfree.woff') format('woff');
+    src: local('Ink Free Regular'), url('Inkfree.ttf') format('ttf');
     }
 
 body{
